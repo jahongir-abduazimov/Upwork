@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <!-- css file -->
+        <link rel="stylesheet" href="./styles/output.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Mirza:wght@400;500;600&display=swap" rel="stylesheet">
+        <title>Document</title>
+    </head>
+    <body>
+
+        <!-- HEADER -->
+
+        <header class="bg-[#fff] border-b-[solid] border-b-[1px] border-b-[#DDE7DD] fixed w-full top-0 z-10">
+            <div class="container">
+                <nav class="flex items-center justify-between h-[83px]">
+                    <a href="./index.html"><img src="./assets/images/logo.svg" alt="Logo"></a>
+                    <ul class="flex gap-x-5">
+                        <li class="font-medium cursor-pointer text-[#2D432C]">
+                            Find Talent
+                        </li>
+                        <li class="font-medium cursor-pointer text-[#2D432C]">
+                            Find Work
+                        </li>
+                        <li class="font-medium cursor-pointer text-[#2D432C]">
+                            Why Upwork
+                        </li>
+                        <li class="font-medium cursor-pointer text-[#2D432C]">
+                            Enterprise
+                        </li>
+                    </ul>
+                    <div class="flex items-center gap-x-5">
+                        <div class="flex border-solid border-[#DDE7DD] border-[1px] py-2 px-4 w-[307px] justify-between rounded-[81px]">
+                            <input class="placeholder:text-[#2D432C] placeholder:font-medium px-1 focus:outline-none" type="text" placeholder="Search">
+                            <p class="#2D432C font-medium border-l-solid border-l-[2px] pl-4 cursor-pointer border-l-[#DDE7DD]">Talent</p>
+                        </div>
+                        <div class="flex items-center gap-x-4">
+                            <a href="#" class="font-medium text-[#2D432C] ">Log In</a>
+                            <button class="px-5 py-3 bg-[#0E8B00] text-[#fff] rounded-[45px]">Sign Up</button>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <!-- INTRO SECTION -->
+            <section id="intro" class="pt-[103px] pb-[57px]">
+                <div class="container">
+                    <ul class="flex gap-x-5 mb-[18px]">
+                        <li><a class="text-[14px] font-medium text-[#2D432C]" href="#">Development & IT</a></li>
+                        <li><a class="text-[14px] font-medium text-[#2D432C]" href="#">Design & Creative</a></li>
+                        <li><a class="text-[14px] font-medium text-[#2D432C]" href="#">Sales & Marketing</a></li>
+                        <li><a class="text-[14px] font-medium text-[#2D432C]" href="#">Writing & Translation</a></li>
+                        <li><a class="text-[14px] font-medium text-[#2D432C]" href="#">Admin & Customer Support</a></li>
+                        <li><a class="text-[14px] font-medium text-[#2D432C]" href="#">More</a></li>
+                    </ul>
+                    <div class="flex justify-between items-center">
+                        <div class="w-[537px] pl-[100px]">
+                            <h1 class="text-[#0E8B00] font-medium text-[76px] leading-[76px] tracking-[-3.04px] mb-4 font-[Mirza]">How work should work</h1>
+                            <p class="text-[#74816D] text-2xl mb-8 font-medium">Forget the old rules. You can have the best people. Right now. Right here.</p>
+                            <div class="flex gap-x-3 mb-[44px]">
+                                <button class="px-6 py-3 rounded-[45px] border-solid border-[1px] border-[#0E8B00] text-[#0E8B00] font-medium hover:bg-[#0E8B00] hover:text-[#fff] duration-150">Get Started</button>
+                                <button class="px-6 py-3 rounded-[45px] border-solid border-[1px] border-[#0E8B00] text-[#0E8B00] font-medium hover:bg-[#0E8B00] hover:text-[#fff] duration-150">Learn how to hire</button>
+                            </div>
+                            <p class="text-[#ADC2AD] font-medium mb-[10px]">Trusted by</p>
+                            <div class="flex gap-x-5">
+                                <img src="./assets/images/microsoft.svg" alt="microsoft">
+                                <img src="./assets/images/airbnb.svg" alt="airbnb">
+                                <img src="./assets/images/bissel.svg" alt="bissel">
+                            </div>
+                        </div>
+                        <div>
+                            <img src="./assets/images/intro-img.png" alt="img">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CATEGORY SECTION -->
+            <section class="py-10">
+                <div class="container">
+                    <h2 class="font-medium text-[36px] text-[#2D432C] mb-3">Browse talent by category</h2>
+                    <p class="text-[#74816D] font-medium mb-[32px]">Looking for work? <a href="#" class="text-[#0E8B00]">Browse jobs</a></p>
+                    <div class="flex flex-wrap gap-[19px]">
+                        <div class="w-[305px] h-[138px] bg-[#F2F7F1] rounded-[8px] py-5 px-4">
+                            <p class="text-[24px] font-medium text-[#2D432C] mb-[16px]">Development & IT</p>
+                            <div class="text-[#74816D] text-[15px] font-medium flex justify-between">
+                                <div class="flex gap-x-[5px]">
+                                    <img src="./assets/images/material-symbols_star-rounded.svg" alt="star img">
+                                    <span>4.91/5</span>
+                                </div>
+                                <span>968 skills</span>
+                            </div>
+                        </div>
+                        <div class="w-[305px] h-[138px] bg-[#F2F7F1] rounded-[8px] py-5 px-4">
+                            <p class="text-[24px] font-medium text-[#2D432C] mb-[16px]">Graphic Design & Creative Stuff</p>
+                            <div class="text-[#74816D] text-[15px] font-medium flex justify-between">
+                                <div class="flex gap-x-[5px]">
+                                    <img src="./assets/images/material-symbols_star-rounded.svg" alt="star img">
+                                    <span>4.77/5</span>
+                                </div>
+                                <span>392 skills</span>
+                            </div>
+                        </div>
+                        <div class="w-[305px] h-[138px] bg-[#F2F7F1] rounded-[8px] py-5 px-4">
+                            <p class="text-[24px] font-medium text-[#2D432C] mb-[16px]">Sales & Marketing</p>
+                            <div class="text-[#74816D] text-[15px] font-medium flex justify-between">
+                                <div class="flex gap-x-[5px]">
+                                    <img src="./assets/images/material-symbols_star-rounded.svg" alt="star img">
+                                    <span>4.92/5</span>
+                                </div>
+                                <span>505 skills</span>
+                            </div>
+                        </div>
+                        <div class="w-[305px] h-[138px] bg-[#F2F7F1] rounded-[8px] py-5 px-4">
+                            <p class="text-[24px] font-medium text-[#2D432C] mb-[16px]">Copy Writing & Translation</p>
+                            <div class="text-[#74816D] text-[15px] font-medium flex justify-between">
+                                <div class="flex gap-x-[5px]">
+                                    <img src="./assets/images/material-symbols_star-rounded.svg" alt="star img">
+                                    <span>4.66/5</span>
+                                </div>
+                                <span>508 skills</span>
+                            </div>
+                        </div>
+                        <div class="w-[305px] h-[138px] bg-[#F2F7F1] rounded-[8px] py-5 px-4">
+                            <p class="text-[24px] font-medium text-[#2D432C] mb-[16px]">Admin & Customer Support</p>
+                            <div class="text-[#74816D] text-[15px] font-medium flex justify-between">
+                                <div class="flex gap-x-[5px]">
+                                    <img src="./assets/images/material-symbols_star-rounded.svg" alt="star img">
+                                    <span>4.13/5</span>
+                                </div>
+                                <span>756 skills</span>
+                            </div>
+                        </div>
+                        <div class="w-[305px] h-[138px] bg-[#F2F7F1] rounded-[8px] py-5 px-4">
+                            <p class="text-[24px] font-medium text-[#2D432C] mb-[16px]">Finance &
+                                Accounting</p>
+                            <div class="text-[#74816D] text-[15px] font-medium flex justify-between">
+                                <div class="flex gap-x-[5px]">
+                                    <img src="./assets/images/material-symbols_star-rounded.svg" alt="star img">
+                                    <span>4.85/5</span>
+                                </div>
+                                <span>145 skills</span>
+                            </div>
+                        </div>
+                        <div class="w-[305px] h-[138px] bg-[#F2F7F1] rounded-[8px] py-5 px-4">
+                            <p class="text-[24px] font-medium text-[#2D432C] mb-[16px]">Engineer & Architecture</p>
+                            <div class="text-[#74816D] text-[15px] font-medium flex justify-between">
+                                <div class="flex gap-x-[5px]">
+                                    <img src="./assets/images/material-symbols_star-rounded.svg" alt="star img">
+                                    <span>4.85/5</span>
+                                </div>
+                                <span>1853 skills</span>
+                            </div>
+                        </div>
+                        <div class="w-[305px] h-[138px] bg-[#F2F7F1] rounded-[8px] py-5 px-4">
+                            <p class="text-[24px] font-medium text-[#2D432C] mb-[16px]">Legal</p>
+                            <div class="text-[#74816D] text-[15px] font-medium flex justify-between">
+                                <div class="flex gap-x-[5px]">
+                                    <img src="./assets/images/material-symbols_star-rounded.svg" alt="star img">
+                                    <span>4.85/5</span>
+                                </div>
+                                <span>1853 skills</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="py-6">
+                <div class="container flex">
+                    <div class="w-[60.8%] px-11 py-8 bg-[#13544E]  rounded-l-[12px]">
+                        <p class="text-[20px] font-medium text-white mb-2">Enterprise Suite</p>
+                        <h1 class="font-medium text-[52px] text-[#8EE6B3] leading-[56px] font-[Mirza] mb-3">
+                            <span class="text-white">This is How</span> Good Companies Find Good Company.
+                        </h1>
+                        <p class="text-white font-medium mb-3">
+                            Access the top 1% of talent on Upwork, and a full suite of hybrid workforce management tools. This is how innovation works now.
+                        </p>
+                        <div  class="flex items-center gap-x-2 mb-2">
+                            <img src="./assets/images/image-1.svg" alt="img">
+                            <p class="text-white font-medium">Access expert talent to fill your skill gaps</p>
+                        </div>
+                        <div class="flex items-center gap-x-2 mb-2">
+                            <img src="./assets/images/image-2.svg" alt="img">
+                            <p class="text-white font-medium">Control your workflow: hire, classify and pay your talent</p>
+                        </div>
+                        <div class="flex items-center gap-x-2 mb-8">
+                            <img src="./assets/images/image-3.svg" alt="img">
+                            <p class="text-white font-medium">Partner with Upwork for end-to-end support</p>
+                        </div>
+                        <button class="bg-white px-6 py-3 text-[#2D432C] rounded-[45px] font-medium">Learn more</button>
+                    </div>
+                    <div class="w-[39.2%] bg-[url('./assets/images/person.png')] bg-no-repeat bg-cover rounded-r-[12px]">
+                    </div>
+                </div>
+            </section>
+
+            <section class="py-6">
+                <div class="container px-[35px] pt-6 pb-[38px] bg-[url('./assets/images/section-bg.jpg')] bg-cover rounded-[12px]">
+                    <p class="text-[20px] text-white font-medium  mb-20">For Clients</p>
+                    <h1 class="font-medium text-white text-[60px] w-[350px] font-[Mirza] leading-[60px] mb-5">Find talent your way</h1>
+                    <p class="font-medium text-[20px] text-white w-[421px] mb-8">Work with the largest network of independent professionals and get things done—from quick turnarounds to big transformations.</p>
+                    <div class="flex justify-between">
+                        <div class="w-[384px] h-[172px] bg-[#0E8B00] rounded-[8px] p-5 font-medium text-white flex flex-col justify-between hover:bg-white hover:text-[#0E8B00] duration-150">
+                            <p class="text-[36px] leading-[44px]">Post a job and hire a professional</p>
+                            <a href="#">Talenta Markeplace <sup class="text-[10px]">TM</sup></a>
+                        </div>
+                        <div class="w-[384px] h-[172px] bg-[#0E8B00] rounded-[8px] p-5 font-medium text-white flex flex-col justify-between hover:bg-white hover:text-[#0E8B00] duration-150">
+                            <p class="text-[36px] leading-[44px]">Browse and buy some projects</p>
+                            <a href="#">Project Catalog<sup class="text-[10px]">TM</sup></a>
+                        </div>
+                        <div class="w-[384px] h-[172px] bg-[#0E8B00] rounded-[8px] p-5 font-medium text-white flex flex-col justify-between hover:bg-white hover:text-[#0E8B00] duration-150">
+                            <p class="text-[36px] leading-[44px]">Let us help you find the right talent</p>
+                            <a href="#">Talenta Scout <sup class="text-[10px]">TM</sup></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="py-12">
+                <div class="container flex justify-between relative">
+                    <div class="w-[66.1%] px-[64px] py-12 bg-[#F2F7F1] rounded-xl text-[#2D432C] font-medium">
+                        <h1 class="text-[68px] font-[Mirza] leading-[72px] mb-6">Why businesess turn <br> to Upwork</h1>
+                        <div class="flex items-center gap-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M16.23 18L12 15.45L7.77 18L8.89 13.19L5.16 9.96L10.08 9.54L12 5L13.92 9.53L18.84 9.95L15.11 13.18L16.23 18ZM12 2C6.47 2 2 6.5 2 12C2 14.6522 3.05357 17.1957 4.92893 19.0711C5.85752 19.9997 6.95991 20.7362 8.17317 21.2388C9.38642 21.7413 10.6868 22 12 22C14.6522 22 17.1957 20.9464 19.0711 19.0711C20.9464 17.1957 22 14.6522 22 12C22 10.6868 21.7413 9.38642 21.2388 8.17317C20.7362 6.95991 19.9997 5.85752 19.0711 4.92893C18.1425 4.00035 17.0401 3.26375 15.8268 2.7612C14.6136 2.25866 13.3132 2 12 2Z" fill="#2D432C"/>
+                            </svg>
+                            <p class="text-[36px]">Proof of quality</p>
+                        </div>
+                        <p class="pl-9 w-[496px] mb-6">
+                            Check any pro’s work samples, client reviews, and identity 
+                            verification
+                        </p>
+                        <div class="flex items-center gap-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M16.23 18L12 15.45L7.77 18L8.89 13.19L5.16 9.96L10.08 9.54L12 5L13.92 9.53L18.84 9.95L15.11 13.18L16.23 18ZM12 2C6.47 2 2 6.5 2 12C2 14.6522 3.05357 17.1957 4.92893 19.0711C5.85752 19.9997 6.95991 20.7362 8.17317 21.2388C9.38642 21.7413 10.6868 22 12 22C14.6522 22 17.1957 20.9464 19.0711 19.0711C20.9464 17.1957 22 14.6522 22 12C22 10.6868 21.7413 9.38642 21.2388 8.17317C20.7362 6.95991 19.9997 5.85752 19.0711 4.92893C18.1425 4.00035 17.0401 3.26375 15.8268 2.7612C14.6136 2.25866 13.3132 2 12 2Z" fill="#2D432C"/>
+                            </svg>
+                            <p class="text-[36px]">No cost until you hire</p>
+                        </div>
+                        <p class="pl-9 w-[496px] mb-6">
+                            Interview potential fits for your job, negotiate rates, and only pay for 
+                            work you approve.
+                        </p>
+                        <div class="flex items-center gap-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M16.23 18L12 15.45L7.77 18L8.89 13.19L5.16 9.96L10.08 9.54L12 5L13.92 9.53L18.84 9.95L15.11 13.18L16.23 18ZM12 2C6.47 2 2 6.5 2 12C2 14.6522 3.05357 17.1957 4.92893 19.0711C5.85752 19.9997 6.95991 20.7362 8.17317 21.2388C9.38642 21.7413 10.6868 22 12 22C14.6522 22 17.1957 20.9464 19.0711 19.0711C20.9464 17.1957 22 14.6522 22 12C22 10.6868 21.7413 9.38642 21.2388 8.17317C20.7362 6.95991 19.9997 5.85752 19.0711 4.92893C18.1425 4.00035 17.0401 3.26375 15.8268 2.7612C14.6136 2.25866 13.3132 2 12 2Z" fill="#2D432C"/>
+                            </svg>
+                            <p class="text-[36px]">Safe and secure</p>
+                        </div>
+                        <p class="pl-9 w-[496px]">
+                            Focus on your work knowing we help protect your data and 
+                            privacy. We’re here with 24/7 support if you need it.
+                        </p>
+                    </div>
+                    <img class="absolute left-[610px] bottom-0" src="./assets/images/business-img.png" alt="img">
+                    <div class="w-[32.2%] bg-[#15A800] rounded-xl px-8 py-16 font-medium text-white flex flex-col justify-end">
+                        <p class="text-[32px] leading-[32px] mb-6">We’re <br> the world’s work <br> marketplace</p>
+                        <div class="flex items-center gap-x-4">
+                            <img src="./assets/images/Vector.svg" alt="img">
+                            <p class="text-[32px]">4.9/5</p>
+                        </div>
+                        <p class="pl-11 mb-6">Clients rate professionals on Upwork</p>
+                        <div class="flex items-center gap-x-4">
+                            <img src="./assets/images/Union.svg" alt="img">
+                            <p class="text-[32px]">Award winner</p>
+                        </div>
+                        <p class="pl-11">G2’s 2021 Best Sofrware Awards</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="py-8">
+                <div class="container flex">
+                    <div class="w-[57.6%] bg-[url('./assets/images/talant-img.jpg')] bg-cover bg-no-repeat rounded-l-xl">
+                    </div>
+                    <div class="w-[42.4%] p-8 font-medium text-white bg-[#1F58C3] rounded-r-xl">
+                        <p class="text-[20px] mb-6">For Talent</p>
+                        <h1 class="text-[60px] leading-[60px] font-[Mirza] mb-5">Find a great <br> worker</h1>
+                        <p class="mb-[176px]">Meet clients you’re excited to work with and take <br> your career or business to new heights.</p>
+                        <ul class="flex justify-between mb-8 pt-6 border-t-[1px] border-solid border-[#ffffff80] w-[442px]">
+                            <li class="w-[138px]">Find opportunities for every stage of your freelance career</li>
+                            <li class="w-[128px]">Control when, where, and how you work</li>
+                            <li class="w-[128px]">Explore different ways to earnr</li>
+                        </ul>
+                        <button class="px-6 py-3 bg-white rounded-[45px] text-[#1F58C3]">Find Opportunities</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="py-10">
+                <div class="container">
+                    <h1 class="font-medium text-[64px] font-[Mirza] text-[#2D432C] leading-[68px] mb-11">Trusted by leading <br> brands and startups</h1>
+                    <div class="flex justify-between">
+                        <div class="w-[624px] bg-[#13544E] px-10 py-8 rounded-xl font-medium text-white">
+                            <img src="./assets/images/NASDAQ.svg" alt="icon">
+                            <p class="text-[24px] font-[Mirza] pt-5 pb-4 leading-8">
+                                “Upwork enables us to differentiate ourselves from <br> our competitors and  produce content at a higher <br> caliber. “
+                            </p>
+                            <p class="text-[#FFFFFFA6] mb-[81px]">Josh Machiz, Chief Digital Officer</p>
+                            <p class="text-[#FFFFFFA6] mb-4">Results</p>
+                            <div class="flex justify-between pt-6 border-[#FFFFFF40] border-t-[1px]">
+                                <div class="w-[260px]">
+                                    <p class="text-[24px] mb-3">Emmy Winning</p>
+                                    <p class="text-[#FFFFFFA6]">Facebook Watch Program</p>
+                                </div>
+                                <div class="w-[260px]">
+                                    <p class="text-[24px] mb-3">Millions</p>
+                                    <p class="text-[#FFFFFFA6]">Of impressions generated per client per IPO</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-[624px] bg-[#BB501A] px-10 py-8 rounded-xl font-medium text-white">
+                            <img src="./assets/images/microsoft2.svg" alt="icon">
+                            <p class="text-[24px] font-[Mirza] pt-5 pb-4 leading-8">
+                                “One of the advantages of utilizing <br> freelancers is finding talent with different <br> skills quickly as our needs change.”
+                            </p>
+                            <p class="text-[#FFFFFFA6] mb-[94px]">Carrol Tylor,  Director of Content Experience</p>
+                            <p class="text-[#FFFFFFA6] mb-4">Results</p>
+                            <div class="flex justify-between pt-6 border-[#FFFFFF40] border-t-[1px]">
+                                <div class="w-[260px]">
+                                    <p class="text-[24px] mb-3">50% Faster</p>
+                                    <p class="text-[#FFFFFFA6]">Launch of projects</p>
+                                </div>
+                                <div class="w-[260px]">
+                                    <p class="text-[24px] mb-3">10.000</p>
+                                    <p class="text-[#FFFFFFA6]">Projects completed</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="py-8">
+                <div class="container flex justify-between bg-[#F2F7F1] px-[74px] py-6 rounded-xl">
+                    <div class="font-medium">
+                        <h1 class="text-[40px] text-[#1E1E1E] font-[Mirza]">We support Ukraine</h1>
+                        <p class="text-[#74816D] mb-6">We  are taking action to help our freelancers, our clients, and the people of Ukraine  and so can you.</p>
+                        <button class="px-6 py-3 border rounded-[45px] text-[#0E8B00] border-1 border-[#0E8B00] hover:bg-[#0E8B00] hover:text-white duration-150">Learn more</button>
+                    </div>
+                    <div>
+                        <img src="./assets/images/ukraine-help.svg" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <section class="py-8">
+                <div class="container flex justify-between font-medium px-[60px]">
+                    <ul class="w-[274px] text-[#C5D1C3] text-[36px]">
+                        <li>
+                            <a class="text-[#15A800]" href="#">Top skills</a>
+                        </li>
+                        <li>
+                            <a href="#">Trending skills</a>
+                        </li>
+                        <li>
+                            <a href="#">Top skills in US</a>
+                        </li>
+                        <li>
+                            <a href="#">Project Catalog</a>
+                        </li>
+                    </ul>
+                    <ul class="w-[270px] text-[#74816D] text-[24px]">
+                        <li><a href="#">Data Entry Specialists</a></li>
+                        <li><a href="#">Video Editors</a></li>
+                        <li><a href="#">Data Analyst</a></li>
+                        <li><a href="#">Shopify Developer</a></li>
+                        <li><a href="#">Ruby on Rails Developer</a></li>
+                        <li><a href="#">Android Developer</a></li>
+                        <li><a href="#">Bookkeeper</a></li>
+                        <li><a href="#">Content Writer</a></li>
+                        <li><a href="#">Copywriter</a></li>
+                        <li><a href="#">Database Administrator</a></li>
+                        <li><a href="#">Data Scientist</a></li>
+                        <li><a href="#">Front-End Developer</a></li>
+                        <li><a href="#">Game Developer</a></li>
+                        <li><a href="#">Graphic Designer</a></li>
+                        <li><a href="#">iOS Developer</a></li>
+                        <li><a href="#">Java Developer</a></li>
+                    </ul>
+                    <ul class="w-[251px] text-[#74816D] text-[24px]">
+                        <li><a href="#">JavaScript Developer</a></li>
+                        <li><a href="#">Logo Designer</a></li>
+                        <li><a href="#">Mobile App Developer</a></li>
+                        <li><a href="#">PHP Developer</a></li>
+                        <li><a href="#">Python Developer</a></li>
+                        <li><a href="#">Resume Writer</a></li>
+                        <li><a href="#">SEO Expert</a></li>
+                        <li><a href="#">Social Media Manager</a></li>
+                        <li><a href="#">Software Developer</a></li>
+                        <li><a href="#">Software Engineer</a></li>
+                        <li><a href="#">Technical Writer</a></li>
+                        <li><a href="#">UI Designer</a></li>
+                        <li><a href="#">UX Designer</a></li>
+                        <li><a href="#">Virtual Assistant</a></li>
+                        <li><a href="#">Web Designer</a></li>
+                        <li><a href="#">Wordpress Developer</a></li>
+                    </ul>
+                </div>
+            </section>
+
+            <footer class="pt-6 pb-11">
+                <div class="container bg-[#011E00] px-10 py-8 rounded-xl">
+                    <div class="flex justify-between font-medium text-white text-[14px] mb-[55px]">
+                        <ul class="w-[228px]">
+                            <li><p class="text-[#74816D] text-[16px] mb-5">For Clients</p></li>
+                            <li class="mb-2"><a href="#">How to Hire</a></li>
+                            <li class="mb-2"><a href="#">Talent Marketplace</a></li>
+                            <li class="mb-2"><a href="#">Project Catalog</a></li>
+                            <li class="mb-2"><a href="#">Talent Scout</a></li>
+                            <li class="mb-2"><a href="#">Hire an Agency</a></li>
+                            <li class="mb-2"><a href="#">Enterprise</a></li>
+                            <li class="mb-2"><a href="#">Payroll Services</a></li>
+                            <li class="mb-2"><a href="#">Direct Contracts</a></li>
+                            <li class="mb-2"><a href="#">Hire Worldwide</a></li>
+                            <li><a href="#">Hire in the USA</a></li>
+                        </ul>
+                        <ul class="w-[228px]">
+                            <li><p class="text-[#74816D] text-[16px] mb-5">For Talents</p></li>
+                            <li class="mb-2"><a href="#">How to Find Work</a></li>
+                            <li class="mb-2"><a href="#">Direct Contracts</a></li>
+                            <li class="mb-2"><a href="#">Find Freelance Jobs Worldwide</a></li>
+                            <li><a href="#">Find Freelance Jobs in the USA</a></li>
+                        </ul>
+                        <ul class="w-[228px]">
+                            <li><p class="text-[#74816D] text-[16px] mb-5">Resources</p></li>
+                            <li class="mb-2"><a href="#">Help & Support</a></li>
+                            <li class="mb-2"><a href="#">Success Stories</a></li>
+                            <li class="mb-2"><a href="#">Upwork Reviews</a></li>
+                            <li class="mb-2"><a href="#">Resources</a></li>
+                            <li class="mb-2"><a href="#">Blog</a></li>
+                            <li class="mb-2"><a href="#">Community</a></li>
+                            <li class="mb-2"><a href="#">Affiliate Program</a></li>
+                            <li><a href="#">Free Business tools</a></li>
+                        </ul>
+                        <ul class="w-[228px]">
+                            <li><p class="text-[#74816D] text-[16px] mb-5">Company</p></li>
+                            <li class="mb-2"><a href="#">About Us</a></li>
+                            <li class="mb-2"><a href="#">Leaderships</a></li>
+                            <li class="mb-2"><a href="#">Investor Relations</a></li>
+                            <li class="mb-2"><a href="#">Careers</a></li>
+                            <li class="mb-2"><a href="#">Our Impact</a></li>
+                            <li class="mb-2"><a href="#">Press</a></li>
+                            <li class="mb-2"><a href="#">Contact Us</a></li>
+                            <li class="mb-2"><a href="#">Trust, Safety, and Security</a></li>
+                            <li><a href="#">Modern Slavery Statement</a></li>
+                        </ul>
+                    </div>
+                    <div class="flex justify-between items-center pb-6 mb-6 border-b-[1px] border-[#FFFFFF40] text-white font-medium">
+                        <div class="flex gap-6 items-center">
+                            <p class="text-[14px]">Follows Us</p>
+                            <div class="flex gap-2">
+                                <div class="w-8 h-8 border-[1px] flex items-center justify-center rounded-full border-[#FFFFFF40] cursor-pointer hover:scale-125 duration-150">
+                                    <img src="./assets/images/uil_facebook-f.svg" alt="icon">
+                                </div>
+                                <div class="w-8 h-8 border-[1px] flex items-center justify-center rounded-full border-[#FFFFFF40] cursor-pointer hover:scale-125 duration-150">
+                                    <img src="./assets/images/ci_linkedin.svg" alt="icon">
+                                </div>
+                                <div class="w-8 h-8 border-[1px] flex items-center justify-center rounded-full border-[#FFFFFF40] cursor-pointer hover:scale-125 duration-150">
+                                    <img src="./assets/images/mdi_twitter.svg" alt="icon">
+                                </div>
+                                <div class="w-8 h-8 border-[1px] flex items-center justify-center rounded-full border-[#FFFFFF40] cursor-pointer hover:scale-125 duration-150">
+                                    <img src="./assets/images/ph_instagram-logo-fill.svg" alt="icon">
+                                </div>
+                                <div class="w-8 h-8 border-[1px] flex items-center justify-center rounded-full border-[#FFFFFF40] cursor-pointer hover:scale-125 duration-150">
+                                    <img src="./assets/images/bi_youtube.svg" alt="icon">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex gap-6">
+                            <p>Mobile Apps</p>
+                            <div class="flex gap-2 items-center">
+                                <div class="w-8 h-8 border-[1px] flex items-center justify-center rounded-full border-[#FFFFFF40] cursor-pointer hover:scale-125 duration-150">
+                                    <img src="./assets/images/ic_baseline-apple.svg" alt="icon">
+                                </div>
+                                <div class="w-8 h-8 border-[1px] flex items-center justify-center rounded-full border-[#FFFFFF40] cursor-pointer hover:scale-125 duration-150">
+                                    <img src="./assets/images/uil_android.svg" alt="icon">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex gap-[100px] text-white font-medium text-[14px]">
+                        <p>© 2015 - 2023 Upwork® Global Inc.  </p>
+                        <ul class="flex gap-5">
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">CA Notice at Collection</a></li>
+                            <li><a href="#">Cookie Settings</a></li>
+                            <li><a href="#">Accessibility</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+        </main>
+    </body>
+</html>
